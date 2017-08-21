@@ -1,0 +1,31 @@
+{
+  "name": "webcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "babel --presets es2015 custom-element.js --out-file dist/custom-element.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "del": "^3.0.0",
+    "google-closure-compiler": "^20170806.0.0",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "lazypipe": "^1.0.1",
+    "rollup-plugin-babel": "^3.0.1",
+    "rollup-stream": "^1.23.1",
+    "run-sequence": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "webcomponentsjs": "^1.0.2"
+  }
+}
